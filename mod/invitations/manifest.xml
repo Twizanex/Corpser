@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin_manifest>
+        <field key="author" value="Ralf Heinrich" />
+        <field key="version" value="0.1" />
+        <field key="description" value="Invite friends to this elgg site. With integrated walledgarden" />
+        <field key="website" value="http://www.daten-punk.de/" />
+        <field key="copyright" value="(C) Curverider 2008" />
+        <field key="copyright" value="(C) Ralf Heinrich 2008" />
+        <field key="licence" value="GNU Public License version 2" />
+</plugin_manifest>

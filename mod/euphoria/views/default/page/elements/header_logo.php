@@ -1,0 +1,23 @@
+<?php
+
+/*
+ * Project Name:            Euphoria Theme
+ * Project Description:     Theme for Elgg 1.8
+ * Author:                  Shane Barron - SocialApparatus
+ * License:                 GNU General Public License (GPL) version 2
+ * Website:                 http://socia.us
+ * Contact:                 sales@socia.us
+ * 
+ * File Version:            1.0
+ * Last Updated:            5/11/2013
+ */
+$site = elgg_get_site_entity();
+$site_name = $site->name;
+$site_url = elgg_get_site_url();
+?>
+
+<h1>
+	<a class="elgg-heading-site" href="<?php echo $site_url; ?>">
+		<?php echo $site_name; ?>
+	</a>
+</h1>

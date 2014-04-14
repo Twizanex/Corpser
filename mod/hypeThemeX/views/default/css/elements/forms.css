@@ -1,0 +1,29 @@
+form, .elgg-form {
+  margin: 0;
+  *zoom: 1;
+}
+form:before, form:after, .elgg-form:before, .elgg-form:after {
+  content: " ";
+  display: table;
+}
+form:after, .elgg-form:after {
+  clear: both;
+}
+form fieldset, .elgg-form fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+form > fieldset, .elgg-form > fieldset {
+  padding: 0.9375rem;
+}
+form label, .elgg-form label {
+  color: #202020;
+}
+form label + br, .elgg-form label + br {
+  display: none;
+}
+form .mceEditor, .elgg-form .mceEditor {
+  margin-bottom: 20px;
+  display: block;
+}

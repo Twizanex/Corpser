@@ -1,0 +1,323 @@
+/* ***************************************
+	Image Block
+*************************************** */
+.elgg-image-block {
+  *zoom: 1;
+}
+.elgg-image-block:before, .elgg-image-block:after {
+  content: " ";
+  display: table;
+}
+.elgg-image-block:after {
+  clear: both;
+}
+.elgg-image-block .elgg-image {
+  float: left;
+  margin-right: 0.4375rem;
+}
+.elgg-image-block .elgg-image-alt {
+  float: right;
+  margin-left: 0.4375rem;
+}
+
+/* ***************************************
+	List
+*************************************** */
+.elgg-list {
+  *zoom: 1;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.elgg-list:before, .elgg-list:after {
+  content: " ";
+  display: table;
+}
+.elgg-list:after {
+  clear: both;
+}
+.elgg-list > li {
+  *zoom: 1;
+  position: relative;
+  padding: 0.4375rem;
+  border-color: #eaeaea;
+  border-style: solid;
+  border-width: 0;
+  border-top-width: 1px;
+}
+.elgg-list > li:before, .elgg-list > li:after {
+  content: " ";
+  display: table;
+}
+.elgg-list > li:after {
+  clear: both;
+}
+.elgg-list > li:first-child {
+  margin-top: 0.4375rem;
+}
+.elgg-list > li:last-child {
+  border-bottom-width: 1px;
+  margin-bottom: 0.4375rem;
+}
+
+/* ***************************************
+	Gallery
+*************************************** */
+.elgg-gallery {
+  *zoom: 1;
+}
+.elgg-gallery:before, .elgg-gallery:after {
+  content: " ";
+  display: table;
+}
+.elgg-gallery:after {
+  clear: both;
+}
+.elgg-gallery > li {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0.21875rem;
+  padding: 1px;
+  border: none;
+  background: none;
+}
+
+/* ***************************************
+	Tables
+*************************************** */
+/* ***************************************
+	Owner Block
+*************************************** */
+.elgg-owner-block {
+  margin-bottom: 20px;
+}
+
+/* ***************************************
+	Messages
+*************************************** */
+.elgg-message {
+  color: white;
+  font-weight: bold;
+  display: block;
+  padding: 0.21875rem 0.4375rem;
+  cursor: pointer;
+  opacity: 0.9;
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.45);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.45);
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.elgg-state-success {
+  background-color: #396516;
+}
+
+.elgg-state-error {
+  background-color: #67080a;
+}
+
+.elgg-state-notice {
+  background-color: #4690d6;
+}
+
+/* ***************************************
+	River
+*************************************** */
+.elgg-list-river {
+  *zoom: 1;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.elgg-list-river:before, .elgg-list-river:after {
+  content: " ";
+  display: table;
+}
+.elgg-list-river:after {
+  clear: both;
+}
+.elgg-list-river > .elgg-river-item {
+  *zoom: 1;
+  position: relative;
+  padding: 0.4375rem;
+  border-color: #eaeaea;
+  border-style: solid;
+  border-width: 0;
+  border-top-width: 1px;
+}
+.elgg-list-river > .elgg-river-item:before, .elgg-list-river > .elgg-river-item:after {
+  content: " ";
+  display: table;
+}
+.elgg-list-river > .elgg-river-item:after {
+  clear: both;
+}
+.elgg-list-river > .elgg-river-item:first-child {
+  margin-top: 0.4375rem;
+}
+.elgg-list-river > .elgg-river-item:last-child {
+  border-bottom-width: 1px;
+  margin-bottom: 0.4375rem;
+}
+
+.elgg-river-attachments,
+.elgg-river-message,
+.elgg-river-content {
+  *zoom: 1;
+  border-left: 1px solid #dddddd;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  margin: 0.4375rem 0;
+  padding: 0 0.4375rem;
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+.elgg-river-attachments:before, .elgg-river-attachments:after,
+.elgg-river-message:before,
+.elgg-river-message:after,
+.elgg-river-content:before,
+.elgg-river-content:after {
+  content: " ";
+  display: table;
+}
+.elgg-river-attachments:after,
+.elgg-river-message:after,
+.elgg-river-content:after {
+  clear: both;
+}
+
+.elgg-river-responses {
+  position: relative;
+}
+
+.elgg-river-attachments .elgg-avatar,
+.elgg-river-attachments .elgg-icon {
+  float: left;
+}
+
+.elgg-river-layout .elgg-input-dropdown {
+  margin: 10px 0;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.elgg-river-comments-tab {
+  display: block;
+  margin: 0.4375rem 0 0 0.4375rem;
+  padding: 0.21875rem 0.5625rem;
+  background: #f1f1f1;
+  color: #484848;
+  height: 25px;
+  position: absolute;
+  margin-top: -25px;
+  right: 0;
+  font-size: 0.8125rem;
+  -webkit-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+}
+
+.elgg-river-comments {
+  margin: 25px 0 0;
+  background: #f1f1f1;
+  font-size: 90%;
+  -webkit-border-radius: 3px 0 3px 3px;
+  border-radius: 3px 0 3px 3px;
+}
+.elgg-river-comments > li.elgg-item {
+  border-color: white;
+}
+
+.elgg-river-more {
+  font-size: 0.875rem;
+  margin-left: 0.5625rem;
+}
+
+.elgg-river-item form {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 62.5rem;
+  *zoom: 1;
+  margin-top: -0.4375rem;
+  background-color: #f1f1f1;
+  -webkit-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+}
+.elgg-river-item form:before, .elgg-river-item form:after {
+  content: " ";
+  display: table;
+}
+.elgg-river-item form:after {
+  clear: both;
+}
+
+.elgg-river-item input[type=text] {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 83.33333%;
+  float: left;
+}
+
+.elgg-river-item input[type=submit] {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 16.66667%;
+  float: left;
+}
+
+/* **************************************
+	Comments (from elgg_view_comments)
+************************************** */
+.elgg-comments {
+  margin-top: 25px;
+}
+
+.elgg-comments > form {
+  margin-top: 15px;
+}
+
+/* ***************************************
+	Image-related
+*************************************** */
+.elgg-photo {
+  line-height: 0;
+  display: inline-block;
+  border: solid 4px white;
+  max-width: 100%;
+  -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+}
+.elgg-photo:hover, .elgg-photo:focus {
+  -webkit-box-shadow: 0 0 6px 1px rgba(70, 144, 214, 0.5);
+  box-shadow: 0 0 6px 1px rgba(70, 144, 214, 0.5);
+}
+
+/* ***************************************
+	Tags
+*************************************** */
+.elgg-tags {
+  font-size: 0.875rem;
+}
+
+.elgg-tags > li {
+  float: left;
+  margin-right: 5px;
+}
+
+.elgg-tags li.elgg-tag:after {
+  content: ",";
+}
+
+.elgg-tags li.elgg-tag:last-child:after {
+  content: "";
+}
+
+.elgg-tagcloud {
+  text-align: justify;
+}

@@ -1,0 +1,20 @@
+.custom-index {
+  padding: 20px 0;
+}
+.custom-index .elgg-inner.prl,
+.custom-index .elgg-inner.pvm {
+  padding: 0;
+}
+.custom-index .elgg-module {
+  margin-bottom: 1.25rem;
+}
+.custom-index .elgg-module > .elgg-body {
+  padding: 0;
+}
+.custom-index h2 {
+  margin: 0;
+  padding: 0.625rem;
+}
+.custom-index .elgg-module-featured .elgg-module-aside {
+  margin: 0.9375rem;
+}

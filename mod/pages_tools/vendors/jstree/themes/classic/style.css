@@ -1,0 +1,118 @@
+/*LOCKED*/
+.tree-classic .locked LI A
+{
+	color: #808080;
+}
+/*DOTS*/
+.tree-classic UL
+{
+	background-position: 6px 1px;
+	background-repeat: repeat-y;
+	background-image: url(data:image/gif;base64,R0lGODlhAgACAIAAAB4dGf///yH5BAEAAAEALAAAAAACAAIAAAICRF4AOw==);
+	-background-image: url("dot_for_ie.gif");
+	=background-image: url("dot_for_ie.gif");
+}
+.tree-classic LI
+{
+	background-position: -64px -16px;
+	background-repeat: no-repeat;
+	background-image: url("icons.png");
+}
+/*NO DOTS*/
+.tree-classic .no_dots, .tree-classic .no_dots UL
+{
+	background: transparent;
+}
+.tree-classic .no_dots LI.leaf
+{
+	background-image: none;
+	background-color: transparent;
+}
+/*OPEN or CLOSED*/
+.tree-classic LI.open
+{
+	background: url("icons.png") no-repeat -32px -48px;
+}
+.tree-classic LI.closed, #jstree-dragged.tree-classic LI LI.open
+{
+	background: url("icons.png") no-repeat -48px -32px;
+}
+#jstree-marker
+{
+	background-image: url("icons.png");
+}
+/*DEFAULT, HOVER, CLICKED, LOADING STATES*/
+.tree-classic LI A:hover, .tree-classic LI A.hover, .tree-classic LI SPAN
+{
+/*background: #e7f4f9; border:1px solid #d8f0fa; padding:0px 3px 0px 3px;*/
+}
+.tree-classic LI A.clicked, .tree-classic LI A.clicked:hover, .tree-classic LI SPAN.clicked
+{
+	background: #2C594A;
+	border: 1px solid #2C594A;
+	color: #FFFFFF;
+	padding: 0px 3px;
+}
+/*ICONS*/
+.tree-classic INS
+{
+	background-image: url("icons.png");
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}
+.tree-classic UL LI A.loading INS
+{
+	background-image: url("throbber.gif") !important;
+	background-position: 0 0 !important;
+}
+/*UL is added to make selector stronger*/
+.tree-classic LI.closed A INS, .tree-classic LI.leaf A INS
+{
+	background-position: 0 0px;
+}
+/*UL is added to make selector stronger*/
+.tree-classic UL LI A.loading INS
+{
+	background-image: url("throbber.gif");
+	background-position: 0 0;
+}
+/*UL is added to make selector stronger*/
+.tree-classic LI A INS.forbidden
+{
+	background-position: -16px -16px;
+}
+.tree-classic .locked LI A INS
+{
+	background-position: 0 -48px;
+}
+.tree-classic LI SPAN INS
+{
+	background-position: -16px 0;
+}
+#jstree-dragged.tree-classic INS
+{
+	background: url("icons.png") no-repeat -16px -32px;
+}
+#jstree-dragged.tree-classic INS.forbidden
+{
+	background: url("icons.png") no-repeat -16px -16px;
+}
+/*CONTEXT MENU*/
+.tree-classic-context A INS
+{
+	background-image: url("icons.png");
+	background-repeat: no-repeat;
+	background-position: -64px -64px;
+}
+.tree-classic-context A INS.create
+{
+	background-position: 0 -16px;
+}
+.tree-classic-context A INS.rename
+{
+	background-position: -16px 0px;
+}
+.tree-classic-context A INS.remove
+{
+	background-position: -32px -16px;
+}

@@ -1,0 +1,32 @@
+Notes:
+
+Plugin for inviting friends to the network - with included walledgarden
+
+Creates emails with random code to validate access to a register form.
+Creates objects with sent data as metadata that can be viewed later by the person who sent the invitation.
+
+Shows mailform to send invitations *.
+Shows page with sent invitations *.
+Shows widget for the users sent invitations.
+Shows page with "all invitations" for admins (invitations submenu).
+Invitations can be deleted after.
+
+* for users who are allowed to send invitations.
+
+
+
+Instructions:
+
+Drop into mod directory, enable it in the admin planel and change settings:
+- Email address (website email adress)
+- Period of validity of invitations in days
+- Permissions (who should be able to send invitations)
+- Walledgarden
+- Walledgarden exceptions
+
+- disable the standalone walledgarden plugin to make the invitation register form accessible
+
+- If permissions should be restricted (only some are allowed/disallowed) admins can set permissions for several users by using the profile icon dropdown
+
+
+Cheers.

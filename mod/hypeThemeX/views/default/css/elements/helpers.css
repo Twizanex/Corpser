@@ -1,0 +1,238 @@
+.hidden {
+  display: none;
+}
+
+.centered {
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.float {
+  float: left;
+  margin-right: 0px;
+}
+
+.float-alt {
+  float: right;
+  margin-left: 0px;
+}
+
+.link {
+  cursor: pointer;
+}
+
+.elgg-discover .elgg-discoverable {
+  display: none;
+}
+
+.elgg-discover:hover .elgg-discoverable {
+  display: block;
+}
+
+.elgg-transition:hover {
+  opacity: .7;
+}
+
+/***************************************
+*	BORDERS AND SEPARATORS
+***************************************/
+.elgg-border-plain {
+  border: 1px solid #e2e2e2;
+}
+
+.elgg-border-transition {
+  border: 1px solid #e2e2e2;
+}
+
+.elgg-divide-top {
+  border-width: 1px 0px 0px 0px;
+  border-style: solid;
+  border-color: #dddddd;
+}
+
+.elgg-divide-bottom {
+  border-width: 0px 0px 1px 0px;
+  border-style: solid;
+  border-color: #dddddd;
+}
+
+.elgg-divide-left {
+  border-width: 0px 0px 0px 1px;
+  border-style: solid;
+  border-color: #dddddd;
+}
+
+.elgg-divide-right {
+  border-width: 0px 1px 0px 0px;
+  border-style: solid;
+  border-color: #dddddd;
+}
+
+***************************************
+* PADDING
+***************************************
+.pan {
+  padding: 0;
+}
+
+.prn, .phn {
+  padding-right: 0;
+}
+
+.pln, .phn {
+  padding-left: 0;
+}
+
+.ptn, .pvn {
+  padding-top: 0;
+}
+
+.pbn, .pvn {
+  padding-bottom: 0;
+}
+
+.pas {
+  padding: 0.4375rem;
+}
+
+.prs, .phs {
+  padding-right: 0.4375rem;
+}
+
+.pls, .phs {
+  padding-left: 0.4375rem;
+}
+
+.pts, .pvs {
+  padding-top: 0.4375rem;
+}
+
+.pbs, .pvs {
+  padding-bottom: 0.4375rem;
+}
+
+.pam {
+  padding: 0.5625rem;
+}
+
+.prm, .phm {
+  padding-right: 0.5625rem;
+}
+
+.plm, .phm {
+  padding-left: 0.5625rem;
+}
+
+.ptm, .pvm {
+  padding-top: 0.5625rem;
+}
+
+.pbm, .pvm {
+  padding-bottom: 0.5625rem;
+}
+
+.pal {
+  padding: 0.75rem;
+}
+
+.prl, .phl {
+  padding-right: 0.75rem;
+}
+
+.pll, .phl {
+  padding-left: 0.75rem;
+}
+
+.ptl, .pvl {
+  padding-top: 0.75rem;
+}
+
+.pbl, .pvl {
+  padding-bottom: 0.75rem;
+}
+
+***************************************
+* MARGINS
+***************************************
+.man {
+  margin: 0;
+}
+
+.mrn, .mhn {
+  margin-right: 0;
+}
+
+.mln, .mhn {
+  margin-left: 0;
+}
+
+.mtn, .mvn {
+  margin-top: 0;
+}
+
+.mbn, .mvn {
+  margin-bottom: 0;
+}
+
+.mas {
+  margin: 0.4375rem;
+}
+
+.mrs, .mhs {
+  margin-right: 0.4375rem;
+}
+
+.mls, .mhs {
+  margin-left: 0.4375rem;
+}
+
+.mts, .mvs {
+  margin-top: 0.4375rem;
+}
+
+.mbs, .mvs {
+  margin-bottom: 0.4375rem;
+}
+
+.mam {
+  margin: 0.5625rem;
+}
+
+.mrm, .mhm {
+  margin-right: 0.5625rem;
+}
+
+.mlm, .mhm {
+  margin-left: 0.5625rem;
+}
+
+.mtm, .mvm {
+  margin-top: 0.5625rem;
+}
+
+.mbm, .mvm {
+  margin-bottom: 0.5625rem;
+}
+
+.mal {
+  margin: 0.75rem;
+}
+
+.mrl, .mhl {
+  margin-right: 0.75rem;
+}
+
+.mll, .mhl {
+  margin-left: 0.75rem;
+}
+
+.mtl, .mvl {
+  margin-top: 0.75rem;
+}
+
+.mbl, .mvl {
+  margin-bottom: 0.75rem;
+}
